@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "TentBoxGui",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tent_box_gui"
+    },
+    {
+      "name": "TentBox",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tent_box"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.maxdogs_camping_mod.tent_box": "Tent Box"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "maxdogs_camping_mod",
+    "modName": "MaxDog\u0027s Camping Mod",
+    "version": "1.0.0",
+    "author": "Patricia, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.maxdogscampingmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "maxdogs_camping_mod:blocks/tentboxsides",
+    "up": "maxdogs_camping_mod:blocks/tentboxsides",
+    "north": "maxdogs_camping_mod:blocks/tentboxfront",
+    "east": "maxdogs_camping_mod:blocks/tentboxsides",
+    "south": "maxdogs_camping_mod:blocks/tentboxsides",
+    "west": "maxdogs_camping_mod:blocks/tentboxsides",
+    "particle": "maxdogs_camping_mod:blocks/tentboxsides"
+  }
+}

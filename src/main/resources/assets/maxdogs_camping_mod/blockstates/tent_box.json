@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "maxdogs_camping_mod:block/tent_box"
+    },
+    "facing=east": {
+      "model": "maxdogs_camping_mod:block/tent_box",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "maxdogs_camping_mod:block/tent_box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "maxdogs_camping_mod:block/tent_box",
+      "y": 270
+    }
+  }
+}
