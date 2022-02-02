@@ -15,12 +15,21 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tent_box"
+    },
+    {
+      "name": "TentBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tent_block"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.maxdogs_camping_mod.tent_block": "Tent Block",
       "block.maxdogs_camping_mod.tent_box": "Tent Box"
     }
   },

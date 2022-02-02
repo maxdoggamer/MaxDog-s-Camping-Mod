@@ -11,6 +11,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.maxdogscampingmod.block.TentBoxBlock;
+import net.mcreator.maxdogscampingmod.block.TentBlockBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -19,6 +20,7 @@ import java.util.ArrayList;
 public class MaxdogsCampingModModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block TENT_BOX = register(new TentBoxBlock());
+	public static final Block TENT_BLOCK = register(new TentBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
