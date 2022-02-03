@@ -21,6 +21,9 @@ public class MaxdogsCampingModModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item TENT_BOX = register(MaxdogsCampingModModBlocks.TENT_BOX, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item TENT_BLOCK = register(MaxdogsCampingModModBlocks.TENT_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item SLEEPBAGTENT = register(MaxdogsCampingModModBlocks.SLEEPBAGTENT, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item TENTDOOR = register(MaxdogsCampingModModBlocks.TENTDOOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item TENT_DOOR_OPEN = register(MaxdogsCampingModModBlocks.TENT_DOOR_OPEN, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

@@ -1,4 +1,7 @@
 {
+  "block.maxdogs_camping_mod.tent_door_open": "Tent Door Open",
   "block.maxdogs_camping_mod.tent_block": "Tent Block",
-  "block.maxdogs_camping_mod.tent_box": "Tent Box"
+  "block.maxdogs_camping_mod.sleepbagtent": "Sleepbagtent",
+  "block.maxdogs_camping_mod.tent_box": "Tent Box",
+  "block.maxdogs_camping_mod.tentdoor": "Tentdoor"
 }

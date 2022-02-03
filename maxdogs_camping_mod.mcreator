@@ -23,14 +23,117 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tent_block"
+    },
+    {
+      "name": "SleepbagtentOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleepbagtent_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sleepbagtent",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleepbagtent"
+    },
+    {
+      "name": "Tentdoor",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tentdoor"
+    },
+    {
+      "name": "TentDoorOpen",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tent_door_open"
+    },
+    {
+      "name": "TentDoorOpenOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tent_door_open_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TentdoorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tentdoor_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.maxdogs_camping_mod.tent_door_open": "Tent Door Open",
       "block.maxdogs_camping_mod.tent_block": "Tent Block",
-      "block.maxdogs_camping_mod.tent_box": "Tent Box"
+      "block.maxdogs_camping_mod.sleepbagtent": "Sleepbagtent",
+      "block.maxdogs_camping_mod.tent_box": "Tent Box",
+      "block.maxdogs_camping_mod.tentdoor": "Tentdoor"
     }
   },
   "foldersRoot": {
@@ -51,6 +154,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.maxdogscampingmod",
     "lockBaseModFiles": false
   },
