@@ -8,7 +8,7 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 
 public class SleepbagtentOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -43,7 +43,7 @@ public class SleepbagtentOnBlockRightClickedProcedure {
 			}.start(world, 40);
 		} else {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("You can't sleep now."), (true));
+				_player.displayClientMessage(Component.literal("You can't sleep now."), (true));
 		}
 	}
 }

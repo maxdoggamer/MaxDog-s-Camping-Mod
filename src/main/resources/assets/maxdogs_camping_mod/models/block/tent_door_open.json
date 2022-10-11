@@ -4,5 +4,6 @@
     "all": "maxdogs_camping_mod:blocks/entrada_aberta",
     "particle": "maxdogs_camping_mod:blocks/entrada_aberta",
     "0": "maxdogs_camping_mod:blocks/entrada_aberta"
-  }
+  },
+  "render_type": "solid"
 }

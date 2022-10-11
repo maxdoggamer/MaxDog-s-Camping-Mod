@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "maxdogs_camping_mod:blocks/bigpine_log_top",
+    "up": "maxdogs_camping_mod:blocks/bigpine_log_top",
+    "north": "maxdogs_camping_mod:blocks/bigpine_log_side",
+    "east": "maxdogs_camping_mod:blocks/bigpine_log_side",
+    "south": "maxdogs_camping_mod:blocks/bigpine_log_side",
+    "west": "maxdogs_camping_mod:blocks/bigpine_log_side",
+    "particle": "maxdogs_camping_mod:blocks/bigpine_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "maxdogs_camping_mod:blocks/bigpine_planks",
+    "top": "maxdogs_camping_mod:blocks/bigpine_planks",
+    "side": "maxdogs_camping_mod:blocks/bigpine_planks"
+  },
+  "render_type": "solid"
+}

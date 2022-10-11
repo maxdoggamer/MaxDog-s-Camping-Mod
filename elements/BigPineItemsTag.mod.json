@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BigPineWood"
+      },
+      {
+        "value": "CUSTOM:BigPineLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "bigpine_log",
+    "namespace": "forge"
+  }
+}

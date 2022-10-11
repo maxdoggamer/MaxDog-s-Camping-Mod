@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bigpine_log"
+    }
+  ],
+  "result": {
+    "item": "maxdogs_camping_mod:big_pine_planks",
+    "count": 4
+  }
+}

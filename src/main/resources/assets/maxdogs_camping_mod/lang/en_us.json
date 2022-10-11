@@ -1,7 +1,23 @@
 {
   "block.maxdogs_camping_mod.tent_door_open": "Tent Door Open",
-  "block.maxdogs_camping_mod.tent_block": "Tent Block",
+  "block.maxdogs_camping_mod.big_pine_wood": "BigPine Wood",
+  "biome.maxdogs_camping_mod.dense_forest": "Dense Forest",
+  "effect.maxdogs_camping_mod.scared": "Scared",
   "block.maxdogs_camping_mod.sleepbagtent": "Sleepbagtent",
+  "item.maxdogs_camping_mod.marshmallow": "Marshmallow",
+  "item.maxdogs_camping_mod.terror_stories": "Terror Stories",
+  "block.maxdogs_camping_mod.big_pine_fence_gate": "BigPine Fence Gate",
+  "block.maxdogs_camping_mod.big_pine_log": "BigPine Log",
+  "block.maxdogs_camping_mod.big_pine_pressure_plate": "BigPine Pressure Plate",
+  "block.maxdogs_camping_mod.big_pine_fence": "BigPine Fence",
+  "block.maxdogs_camping_mod.tent_block": "Tent Block",
+  "item.maxdogs_camping_mod.cooked_marshmallow": "Cooked Marshmallow",
+  "block.maxdogs_camping_mod.big_pine_leaves": "BigPine Leaves",
   "block.maxdogs_camping_mod.tent_box": "Tent Box",
-  "block.maxdogs_camping_mod.tentdoor": "Tentdoor"
+  "block.maxdogs_camping_mod.marshplant": "Marshplant",
+  "block.maxdogs_camping_mod.big_pine_planks": "BigPine Planks",
+  "block.maxdogs_camping_mod.big_pine_slab": "BigPine Slab",
+  "block.maxdogs_camping_mod.big_pine_button": "BigPine Button",
+  "block.maxdogs_camping_mod.tentdoor": "Tentdoor",
+  "block.maxdogs_camping_mod.big_pine_stairs": "BigPine Stairs"
 }

@@ -4,11 +4,9 @@
  */
 package net.mcreator.maxdogscampingmod.init;
 
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
@@ -17,36 +15,36 @@ import net.mcreator.maxdogscampingmod.block.TentDoorOpenBlock;
 import net.mcreator.maxdogscampingmod.block.TentBoxBlock;
 import net.mcreator.maxdogscampingmod.block.TentBlockBlock;
 import net.mcreator.maxdogscampingmod.block.SleepbagtentBlock;
+import net.mcreator.maxdogscampingmod.block.MarshplantBlock;
+import net.mcreator.maxdogscampingmod.block.BigPineWoodBlock;
+import net.mcreator.maxdogscampingmod.block.BigPineStairsBlock;
+import net.mcreator.maxdogscampingmod.block.BigPineSlabBlock;
+import net.mcreator.maxdogscampingmod.block.BigPinePressurePlateBlock;
+import net.mcreator.maxdogscampingmod.block.BigPinePlanksBlock;
+import net.mcreator.maxdogscampingmod.block.BigPineLogBlock;
+import net.mcreator.maxdogscampingmod.block.BigPineLeavesBlock;
+import net.mcreator.maxdogscampingmod.block.BigPineFenceGateBlock;
+import net.mcreator.maxdogscampingmod.block.BigPineFenceBlock;
+import net.mcreator.maxdogscampingmod.block.BigPineButtonBlock;
+import net.mcreator.maxdogscampingmod.MaxdogsCampingModMod;
 
-import java.util.List;
-import java.util.ArrayList;
-
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MaxdogsCampingModModBlocks {
-	private static final List<Block> REGISTRY = new ArrayList<>();
-	public static final Block TENT_BOX = register(new TentBoxBlock());
-	public static final Block TENT_BLOCK = register(new TentBlockBlock());
-	public static final Block SLEEPBAGTENT = register(new SleepbagtentBlock());
-	public static final Block TENTDOOR = register(new TentdoorBlock());
-	public static final Block TENT_DOOR_OPEN = register(new TentDoorOpenBlock());
-
-	private static Block register(Block block) {
-		REGISTRY.add(block);
-		return block;
-	}
-
-	@SubscribeEvent
-	public static void registerBlocks(RegistryEvent.Register<Block> event) {
-		event.getRegistry().registerAll(REGISTRY.toArray(new Block[0]));
-	}
-
-	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class ClientSideHandler {
-		@SubscribeEvent
-		public static void clientSetup(FMLClientSetupEvent event) {
-			SleepbagtentBlock.registerRenderLayer();
-			TentdoorBlock.registerRenderLayer();
-			TentDoorOpenBlock.registerRenderLayer();
-		}
-	}
+	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MaxdogsCampingModMod.MODID);
+	public static final RegistryObject<Block> TENT_BOX = REGISTRY.register("tent_box", () -> new TentBoxBlock());
+	public static final RegistryObject<Block> TENT_BLOCK = REGISTRY.register("tent_block", () -> new TentBlockBlock());
+	public static final RegistryObject<Block> SLEEPBAGTENT = REGISTRY.register("sleepbagtent", () -> new SleepbagtentBlock());
+	public static final RegistryObject<Block> TENTDOOR = REGISTRY.register("tentdoor", () -> new TentdoorBlock());
+	public static final RegistryObject<Block> TENT_DOOR_OPEN = REGISTRY.register("tent_door_open", () -> new TentDoorOpenBlock());
+	public static final RegistryObject<Block> MARSHPLANT = REGISTRY.register("marshplant", () -> new MarshplantBlock());
+	public static final RegistryObject<Block> BIG_PINE_WOOD = REGISTRY.register("big_pine_wood", () -> new BigPineWoodBlock());
+	public static final RegistryObject<Block> BIG_PINE_LOG = REGISTRY.register("big_pine_log", () -> new BigPineLogBlock());
+	public static final RegistryObject<Block> BIG_PINE_PLANKS = REGISTRY.register("big_pine_planks", () -> new BigPinePlanksBlock());
+	public static final RegistryObject<Block> BIG_PINE_LEAVES = REGISTRY.register("big_pine_leaves", () -> new BigPineLeavesBlock());
+	public static final RegistryObject<Block> BIG_PINE_STAIRS = REGISTRY.register("big_pine_stairs", () -> new BigPineStairsBlock());
+	public static final RegistryObject<Block> BIG_PINE_SLAB = REGISTRY.register("big_pine_slab", () -> new BigPineSlabBlock());
+	public static final RegistryObject<Block> BIG_PINE_FENCE = REGISTRY.register("big_pine_fence", () -> new BigPineFenceBlock());
+	public static final RegistryObject<Block> BIG_PINE_FENCE_GATE = REGISTRY.register("big_pine_fence_gate", () -> new BigPineFenceGateBlock());
+	public static final RegistryObject<Block> BIG_PINE_PRESSURE_PLATE = REGISTRY.register("big_pine_pressure_plate",
+			() -> new BigPinePressurePlateBlock());
+	public static final RegistryObject<Block> BIG_PINE_BUTTON = REGISTRY.register("big_pine_button", () -> new BigPineButtonBlock());
 }

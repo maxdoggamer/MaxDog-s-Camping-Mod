@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "maxdogs_camping_mod:big_pine_log"
+    },
+    "1": {
+      "item": "maxdogs_camping_mod:big_pine_log"
+    },
+    "2": {
+      "item": "maxdogs_camping_mod:big_pine_log"
+    },
+    "3": {
+      "item": "maxdogs_camping_mod:big_pine_log"
+    }
+  },
+  "result": {
+    "item": "maxdogs_camping_mod:big_pine_wood",
+    "count": 3
+  }
+}

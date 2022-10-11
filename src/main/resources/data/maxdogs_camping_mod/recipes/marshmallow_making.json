@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "maxdogs_camping_mod:marshplant"
+    },
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "maxdogs_camping_mod:marshplant"
+    }
+  },
+  "result": {
+    "item": "maxdogs_camping_mod:marshmallow",
+    "count": 1
+  }
+}

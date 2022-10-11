@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "maxdogs_camping_mod:blocks/marshplant",
+    "particle": "maxdogs_camping_mod:blocks/marshplant"
+  },
+  "render_type": "cutout"
+}

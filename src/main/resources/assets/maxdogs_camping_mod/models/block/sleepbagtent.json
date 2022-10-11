@@ -4,5 +4,6 @@
     "all": "maxdogs_camping_mod:blocks/sleepbagtent",
     "particle": "maxdogs_camping_mod:blocks/sleepbagtent",
     "0": "maxdogs_camping_mod:blocks/sleepbagtent"
-  }
+  },
+  "render_type": "solid"
 }

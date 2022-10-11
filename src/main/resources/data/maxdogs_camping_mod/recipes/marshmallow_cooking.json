@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "maxdogs_camping_mod:marshmallow"
+  },
+  "result": "maxdogs_camping_mod:cooked_marshmallow"
+}

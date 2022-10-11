@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "maxdogs_camping_mod:blocks/bigpine_planks"
+  }
+}

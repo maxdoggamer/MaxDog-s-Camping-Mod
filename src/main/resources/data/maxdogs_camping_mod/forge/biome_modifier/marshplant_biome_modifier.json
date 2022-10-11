@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "maxdogs_camping_mod:marshplant",
+  "step": "vegetal_decoration"
+}

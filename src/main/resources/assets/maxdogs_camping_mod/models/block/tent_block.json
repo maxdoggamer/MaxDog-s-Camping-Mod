@@ -8,5 +8,6 @@
     "south": "maxdogs_camping_mod:blocks/tentblock",
     "west": "maxdogs_camping_mod:blocks/tentblock",
     "particle": "maxdogs_camping_mod:blocks/tentblock"
-  }
+  },
+  "render_type": "solid"
 }

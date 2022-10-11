@@ -16,13 +16,24 @@ package net.mcreator.maxdogscampingmod;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraftforge.fmllegacy.network.simple.SimpleChannel;
-import net.minecraftforge.fmllegacy.network.NetworkRegistry;
-import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.minecraftforge.network.simple.SimpleChannel;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
+
+import net.mcreator.maxdogscampingmod.init.MaxdogsCampingModModMobEffects;
+import net.mcreator.maxdogscampingmod.init.MaxdogsCampingModModMenus;
+import net.mcreator.maxdogscampingmod.init.MaxdogsCampingModModItems;
+import net.mcreator.maxdogscampingmod.init.MaxdogsCampingModModFeatures;
+import net.mcreator.maxdogscampingmod.init.MaxdogsCampingModModEntities;
+import net.mcreator.maxdogscampingmod.init.MaxdogsCampingModModBlocks;
+import net.mcreator.maxdogscampingmod.init.MaxdogsCampingModModBlockEntities;
+import net.mcreator.maxdogscampingmod.init.MaxdogsCampingModModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,6 +50,18 @@ public class MaxdogsCampingModMod {
 
 	public MaxdogsCampingModMod() {
 
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MaxdogsCampingModModBlocks.REGISTRY.register(bus);
+		MaxdogsCampingModModItems.REGISTRY.register(bus);
+		MaxdogsCampingModModEntities.REGISTRY.register(bus);
+		MaxdogsCampingModModBlockEntities.REGISTRY.register(bus);
+		MaxdogsCampingModModFeatures.REGISTRY.register(bus);
+
+		MaxdogsCampingModModMobEffects.REGISTRY.register(bus);
+
+		MaxdogsCampingModModMenus.REGISTRY.register(bus);
+		MaxdogsCampingModModBiomes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

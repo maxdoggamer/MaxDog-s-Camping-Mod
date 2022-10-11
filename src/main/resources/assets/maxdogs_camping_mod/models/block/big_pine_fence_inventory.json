@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "maxdogs_camping_mod:blocks/bigpine_planks",
+    "particle": "maxdogs_camping_mod:blocks/bigpine_planks"
+  },
+  "render_type": "solid"
+}

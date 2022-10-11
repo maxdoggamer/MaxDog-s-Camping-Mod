@@ -11,10 +11,13 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.maxdogscampingmod.world.inventory.TentBoxGuiMenu;
 
+import java.util.HashMap;
+
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class TentBoxGuiScreen extends AbstractContainerScreen<TentBoxGuiMenu> {
+	private final static HashMap<String, Object> guistate = TentBoxGuiMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -30,7 +33,7 @@ public class TentBoxGuiScreen extends AbstractContainerScreen<TentBoxGuiMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("maxdogs_camping_mod:textures/tent_box_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("maxdogs_camping_mod:textures/screens/tent_box_gui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {

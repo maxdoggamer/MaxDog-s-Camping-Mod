@@ -1,9 +1,6 @@
 
 package net.mcreator.maxdogscampingmod.block;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
@@ -19,11 +16,8 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.maxdogscampingmod.procedures.SleepbagtentOnBlockRightClickedProcedure;
-import net.mcreator.maxdogscampingmod.init.MaxdogsCampingModModBlocks;
 
 import java.util.List;
 import java.util.Collections;
@@ -32,7 +26,6 @@ public class SleepbagtentBlock extends Block {
 	public SleepbagtentBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(-1, 3600000).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
-		setRegistryName("sleepbagtent");
 	}
 
 	@Override
@@ -66,10 +59,5 @@ public class SleepbagtentBlock extends Block {
 
 		SleepbagtentOnBlockRightClickedProcedure.execute(world, entity);
 		return InteractionResult.SUCCESS;
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(MaxdogsCampingModModBlocks.SLEEPBAGTENT, renderType -> renderType == RenderType.cutout());
 	}
 }

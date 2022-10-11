@@ -17,7 +17,6 @@ import java.util.Collections;
 public class TentBlockBlock extends Block {
 	public TentBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(-1, 3600000));
-		setRegistryName("tent_block");
 	}
 
 	@Override

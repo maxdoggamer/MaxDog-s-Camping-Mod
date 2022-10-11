@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "maxdogs_camping_mod:block/big_pine_slab"
+    },
+    "type=top": {
+      "model": "maxdogs_camping_mod:block/big_pine_slab_top"
+    },
+    "type=double": {
+      "model": "maxdogs_camping_mod:block/big_pine_slab_full"
+    }
+  }
+}

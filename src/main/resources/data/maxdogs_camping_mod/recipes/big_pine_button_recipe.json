@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "maxdogs_camping_mod:big_pine_planks"
+    }
+  ],
+  "result": {
+    "item": "maxdogs_camping_mod:big_pine_button",
+    "count": 1
+  }
+}

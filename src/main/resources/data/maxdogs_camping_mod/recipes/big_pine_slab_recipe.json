@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "maxdogs_camping_mod:big_pine_planks"
+    },
+    "1": {
+      "item": "maxdogs_camping_mod:big_pine_planks"
+    },
+    "2": {
+      "item": "maxdogs_camping_mod:big_pine_planks"
+    }
+  },
+  "result": {
+    "item": "maxdogs_camping_mod:big_pine_slab",
+    "count": 6
+  }
+}
