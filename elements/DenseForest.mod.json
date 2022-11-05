@@ -9,6 +9,9 @@
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
     },
+    "underwaterBlock": {
+      "value": "Blocks.CLAY"
+    },
     "waterColor": {
       "value": -16724839,
       "falpha": 0.0
@@ -77,17 +80,18 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
-    "spawnBuriedTreasure": false,
+    "spawnBuriedTreasure": true,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
     "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
-    "spawnRuinedPortal": "NONE",
+    "spawnRuinedPortal": "JUNGLE",
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer"
+      "FrozenTopLayer",
+      "Lakes"
     ],
     "spawnEntries": [
       {
@@ -116,6 +120,24 @@
         "maxGroup": 4,
         "weight": 20,
         "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityAllay"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityBee"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
       }
     ]
   }

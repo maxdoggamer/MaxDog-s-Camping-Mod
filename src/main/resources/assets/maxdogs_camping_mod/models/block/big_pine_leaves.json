@@ -3,6 +3,5 @@
   "textures": {
     "all": "maxdogs_camping_mod:blocks/bigpine_leaves",
     "particle": "maxdogs_camping_mod:blocks/bigpine_leaves"
-  },
-  "render_type": "solid"
+  }
 }

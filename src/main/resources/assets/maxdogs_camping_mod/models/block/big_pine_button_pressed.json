@@ -2,5 +2,6 @@
   "parent": "block/button_pressed",
   "textures": {
     "texture": "maxdogs_camping_mod:blocks/bigpine_planks"
-  }
+  },
+  "render_type": "solid"
 }
