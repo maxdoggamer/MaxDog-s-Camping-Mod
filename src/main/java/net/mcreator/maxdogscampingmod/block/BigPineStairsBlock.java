@@ -18,8 +18,7 @@ import java.util.Collections;
 
 public class BigPineStairsBlock extends StairBlock {
 	public BigPineStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(15f, 10f).dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(15f, 10f).dynamicShape());
 	}
 
 	@Override

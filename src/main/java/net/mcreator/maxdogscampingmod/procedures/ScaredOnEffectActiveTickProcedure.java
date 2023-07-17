@@ -22,11 +22,9 @@ public class ScaredOnEffectActiveTickProcedure {
 			_entity.hurt(new DamageSource("Couldn't take the terror").bypassArmor(), (float) 0.05);
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
-				_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")),
-						SoundSource.VOICE, 5, 1);
+				_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")), SoundSource.VOICE, 5, 1);
 			} else {
-				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")), SoundSource.VOICE, 5, 1,
-						false);
+				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")), SoundSource.VOICE, 5, 1, false);
 			}
 		}
 	}

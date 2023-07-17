@@ -16,6 +16,5 @@ import net.mcreator.maxdogscampingmod.MaxdogsCampingModMod;
 
 public class MaxdogsCampingModModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, MaxdogsCampingModMod.MODID);
-	public static final RegistryObject<MenuType<TentBoxGuiMenu>> TENT_BOX_GUI = REGISTRY.register("tent_box_gui",
-			() -> IForgeMenuType.create(TentBoxGuiMenu::new));
+	public static final RegistryObject<MenuType<TentBoxGuiMenu>> TENT_BOX_GUI = REGISTRY.register("tent_box_gui", () -> IForgeMenuType.create(TentBoxGuiMenu::new));
 }

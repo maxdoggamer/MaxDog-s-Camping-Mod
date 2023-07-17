@@ -18,10 +18,9 @@ import java.util.List;
 
 public class MarshmallowItem extends Item {
 	public MarshmallowItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(3).saturationMod(0.7000000000000001f)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(3).saturationMod(0.7f)
 
-						.build()));
+				.build()));
 	}
 
 	@Override

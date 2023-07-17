@@ -34,10 +34,8 @@ public class MaxdogsCampingModModItems {
 	public static final RegistryObject<Item> BIG_PINE_STAIRS = block(MaxdogsCampingModModBlocks.BIG_PINE_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> BIG_PINE_SLAB = block(MaxdogsCampingModModBlocks.BIG_PINE_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> BIG_PINE_FENCE = block(MaxdogsCampingModModBlocks.BIG_PINE_FENCE, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> BIG_PINE_FENCE_GATE = block(MaxdogsCampingModModBlocks.BIG_PINE_FENCE_GATE,
-			CreativeModeTab.TAB_REDSTONE);
-	public static final RegistryObject<Item> BIG_PINE_PRESSURE_PLATE = block(MaxdogsCampingModModBlocks.BIG_PINE_PRESSURE_PLATE,
-			CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BIG_PINE_FENCE_GATE = block(MaxdogsCampingModModBlocks.BIG_PINE_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BIG_PINE_PRESSURE_PLATE = block(MaxdogsCampingModModBlocks.BIG_PINE_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> BIG_PINE_BUTTON = block(MaxdogsCampingModModBlocks.BIG_PINE_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> MARSHMALLOW = REGISTRY.register("marshmallow", () -> new MarshmallowItem());
 	public static final RegistryObject<Item> COOKED_MARSHMALLOW = REGISTRY.register("cooked_marshmallow", () -> new CookedMarshmallowItem());

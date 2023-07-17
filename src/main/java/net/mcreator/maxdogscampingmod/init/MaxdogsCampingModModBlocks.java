@@ -44,7 +44,6 @@ public class MaxdogsCampingModModBlocks {
 	public static final RegistryObject<Block> BIG_PINE_SLAB = REGISTRY.register("big_pine_slab", () -> new BigPineSlabBlock());
 	public static final RegistryObject<Block> BIG_PINE_FENCE = REGISTRY.register("big_pine_fence", () -> new BigPineFenceBlock());
 	public static final RegistryObject<Block> BIG_PINE_FENCE_GATE = REGISTRY.register("big_pine_fence_gate", () -> new BigPineFenceGateBlock());
-	public static final RegistryObject<Block> BIG_PINE_PRESSURE_PLATE = REGISTRY.register("big_pine_pressure_plate",
-			() -> new BigPinePressurePlateBlock());
+	public static final RegistryObject<Block> BIG_PINE_PRESSURE_PLATE = REGISTRY.register("big_pine_pressure_plate", () -> new BigPinePressurePlateBlock());
 	public static final RegistryObject<Block> BIG_PINE_BUTTON = REGISTRY.register("big_pine_button", () -> new BigPineButtonBlock());
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "biome",
   "definition": {
     "name": "Dense Forest",
@@ -36,21 +36,29 @@
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
-    "baseHeight": 0.4,
-    "heightVariation": 0.19999999999999998,
     "spawnBiome": true,
-    "spawnBiomeNether": false,
     "spawnInCaves": false,
-    "biomeWeight": 10,
-    "grassPerChunk": 2,
-    "seagrassPerChunk": 0,
-    "flowersPerChunk": 4,
-    "mushroomsPerChunk": 4,
-    "bigMushroomsChunk": 1,
-    "sandPatchesPerChunk": 0,
-    "gravelPatchesPerChunk": 0,
-    "reedsPerChunk": 0,
-    "cactiPerChunk": 0,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.2,
+      "max": 0.2
+    },
+    "genHumidity": {
+      "min": -0.2,
+      "max": 0.2
+    },
+    "genContinentalness": {
+      "min": 0.34,
+      "max": 0.74
+    },
+    "genErosion": {
+      "min": 0.6000000000000001,
+      "max": 1.0
+    },
+    "genWeirdness": {
+      "min": -0.8385574284943254,
+      "max": -0.4385574284943254
+    },
     "treesPerChunk": 1,
     "vanillaTreeType": "Mega pine trees",
     "treeType": 1,
@@ -67,6 +75,14 @@
     "treeFruits": {
       "value": ""
     },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "Lakes",
+      "ForestGrass",
+      "DefaultFlowers"
+    ],
     "spawnStronghold": true,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
@@ -87,12 +103,6 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "JUNGLE",
-    "defaultFeatures": [
-      "Caves",
-      "Ores",
-      "FrozenTopLayer",
-      "Lakes"
-    ],
     "spawnEntries": [
       {
         "entity": {

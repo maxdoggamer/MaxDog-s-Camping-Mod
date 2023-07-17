@@ -6,7 +6,13 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tent_box_gui"
+      "registry_name": "tent_box_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/client/gui/TentBoxGuiScreen.java",
+          "src/main/java/net/mcreator/maxdogscampingmod/world/inventory/TentBoxGuiMenu.java"
+        ]
+      }
     },
     {
       "name": "TentBox",
@@ -14,7 +20,16 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tent_box"
+      "registry_name": "tent_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/tent_box.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/TentBoxBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/tent_box.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/tent_box.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/entity/TentBoxBlockEntity.java"
+        ]
+      }
     },
     {
       "name": "TentBlock",
@@ -22,7 +37,15 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tent_block"
+      "registry_name": "tent_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/block/TentBlockBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/tent_block.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/tent_block.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/tent_block.json"
+        ]
+      }
     },
     {
       "name": "SleepbagtentOnBlockRightClicked",
@@ -32,6 +55,9 @@
       "locked_code": false,
       "registry_name": "sleepbagtent_on_block_right_clicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/procedures/SleepbagtentOnBlockRightClickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -50,7 +76,15 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sleepbagtent"
+      "registry_name": "sleepbagtent",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/sleepbagtent.json",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/sleepbagtent.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/SleepbagtentBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/sleepbagtent.json"
+        ]
+      }
     },
     {
       "name": "Tentdoor",
@@ -58,7 +92,15 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tentdoor"
+      "registry_name": "tentdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/tentdoor.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/TentdoorBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/tentdoor.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/tentdoor.json"
+        ]
+      }
     },
     {
       "name": "TentDoorOpen",
@@ -66,7 +108,15 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tent_door_open"
+      "registry_name": "tent_door_open",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/tent_door_open.json",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/tent_door_open.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/TentDoorOpenBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/tent_door_open.json"
+        ]
+      }
     },
     {
       "name": "TentDoorOpenOnBlockRightClicked",
@@ -76,6 +126,9 @@
       "locked_code": false,
       "registry_name": "tent_door_open_on_block_right_clicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/procedures/TentDoorOpenOnBlockRightClickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -104,6 +157,9 @@
       "locked_code": false,
       "registry_name": "tentdoor_on_block_right_clicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/procedures/TentdoorOnBlockRightClickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -130,7 +186,17 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "marshplant"
+      "registry_name": "marshplant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/marshplant.json",
+          "src/main/resources/data/maxdogs_camping_mod/forge/biome_modifier/marshplant_biome_modifier.json",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/marshplant.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/MarshplantBlock.java",
+          "src/main/java/net/mcreator/maxdogscampingmod/world/features/plants/MarshplantFeature.java",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/marshplant.json"
+        ]
+      }
     },
     {
       "name": "MarshmallowCooking",
@@ -138,7 +204,12 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "marshmallow_cooking"
+      "registry_name": "marshmallow_cooking",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/maxdogs_camping_mod/recipes/marshmallow_cooking.json"
+        ]
+      }
     },
     {
       "name": "MarshmallowMaking",
@@ -146,7 +217,12 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "marshmallow_making"
+      "registry_name": "marshmallow_making",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/maxdogs_camping_mod/recipes/marshmallow_making.json"
+        ]
+      }
     },
     {
       "name": "TerrorStories",
@@ -154,7 +230,14 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "terror_stories"
+      "registry_name": "terror_stories",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/entity/TerrorStoriesEntity.java",
+          "src/main/java/net/mcreator/maxdogscampingmod/item/TerrorStoriesItem.java",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/terror_stories.json"
+        ]
+      }
     },
     {
       "name": "ScaredOnEffectActiveTick",
@@ -164,6 +247,9 @@
       "locked_code": false,
       "registry_name": "scared_on_effect_active_tick",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/procedures/ScaredOnEffectActiveTickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -194,7 +280,12 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "scared"
+      "registry_name": "scared",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/potion/ScaredMobEffect.java"
+        ]
+      }
     },
     {
       "name": "TerrorStoriesProjectileHitsLivingEntity",
@@ -204,6 +295,9 @@
       "locked_code": false,
       "registry_name": "terror_stories_projectile_hits_living_entity",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/procedures/TerrorStoriesProjectileHitsLivingEntityProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -218,7 +312,15 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_wood"
+      "registry_name": "big_pine_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/block/BigPineWoodBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/big_pine_wood.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_wood.json",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/big_pine_wood.json"
+        ]
+      }
     },
     {
       "name": "BigPineLog",
@@ -226,7 +328,15 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_log"
+      "registry_name": "big_pine_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/big_pine_log.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/BigPineLogBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_log.json",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/big_pine_log.json"
+        ]
+      }
     },
     {
       "name": "BigPinePlanks",
@@ -234,7 +344,15 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_planks"
+      "registry_name": "big_pine_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_planks.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/BigPinePlanksBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/big_pine_planks.json",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/big_pine_planks.json"
+        ]
+      }
     },
     {
       "name": "BigPineLeaves",
@@ -242,7 +360,15 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_leaves"
+      "registry_name": "big_pine_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/block/BigPineLeavesBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/big_pine_leaves.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_leaves.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/big_pine_leaves.json"
+        ]
+      }
     },
     {
       "name": "BigPineStairs",
@@ -250,7 +376,17 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_stairs"
+      "registry_name": "big_pine_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/big_pine_stairs.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_stairs_inner.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/big_pine_stairs.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_stairs.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_stairs_outer.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/BigPineStairsBlock.java"
+        ]
+      }
     },
     {
       "name": "BigPineSlab",
@@ -258,7 +394,17 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_slab"
+      "registry_name": "big_pine_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/block/BigPineSlabBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/big_pine_slab.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_slab_full.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/big_pine_slab.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_slab.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_slab_top.json"
+        ]
+      }
     },
     {
       "name": "BigPineFence",
@@ -266,7 +412,17 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_fence"
+      "registry_name": "big_pine_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_fence.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_fence_post.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/BigPineFenceBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_fence_inventory.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/big_pine_fence.json",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/big_pine_fence.json"
+        ]
+      }
     },
     {
       "name": "BigPineFenceGate",
@@ -274,7 +430,18 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_fence_gate"
+      "registry_name": "big_pine_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_fence_gate.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_fence_gate_wall_open.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/big_pine_fence_gate.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/BigPineFenceGateBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_fence_gate_wall.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_fence_gate_open.json",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/big_pine_fence_gate.json"
+        ]
+      }
     },
     {
       "name": "BigPinePressurePlate",
@@ -282,7 +449,16 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_pressure_plate"
+      "registry_name": "big_pine_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_pressure_plate.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/big_pine_pressure_plate.json",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/big_pine_pressure_plate.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_pressure_plate_down.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/BigPinePressurePlateBlock.java"
+        ]
+      }
     },
     {
       "name": "BigPineButton",
@@ -290,7 +466,17 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_button"
+      "registry_name": "big_pine_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/big_pine_button.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_button.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_button_inventory.json",
+          "src/main/resources/assets/maxdogs_camping_mod/models/block/big_pine_button_pressed.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/block/BigPineButtonBlock.java",
+          "src/main/resources/assets/maxdogs_camping_mod/blockstates/big_pine_button.json"
+        ]
+      }
     },
     {
       "name": "BigPineItemsTag",
@@ -298,7 +484,12 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_items_tag"
+      "registry_name": "big_pine_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/bigpine_log.json"
+        ]
+      }
     },
     {
       "name": "BigPineWoodRecipe",
@@ -306,7 +497,12 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_wood_recipe"
+      "registry_name": "big_pine_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/maxdogs_camping_mod/recipes/big_pine_wood_recipe.json"
+        ]
+      }
     },
     {
       "name": "BigPinePlanksRecipe",
@@ -314,7 +510,12 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_planks_recipe"
+      "registry_name": "big_pine_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/maxdogs_camping_mod/recipes/big_pine_planks_recipe.json"
+        ]
+      }
     },
     {
       "name": "BigPineStairsRecipe",
@@ -322,7 +523,12 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_stairs_recipe"
+      "registry_name": "big_pine_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/maxdogs_camping_mod/recipes/big_pine_stairs_recipe.json"
+        ]
+      }
     },
     {
       "name": "BigPineSlabRecipe",
@@ -330,7 +536,12 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_slab_recipe"
+      "registry_name": "big_pine_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/maxdogs_camping_mod/recipes/big_pine_slab_recipe.json"
+        ]
+      }
     },
     {
       "name": "BigPineFenceRecipe",
@@ -338,7 +549,12 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_fence_recipe"
+      "registry_name": "big_pine_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/maxdogs_camping_mod/recipes/big_pine_fence_recipe.json"
+        ]
+      }
     },
     {
       "name": "BigPineFenceGateRecipe",
@@ -346,7 +562,12 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_fence_gate_recipe"
+      "registry_name": "big_pine_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/maxdogs_camping_mod/recipes/big_pine_fence_gate_recipe.json"
+        ]
+      }
     },
     {
       "name": "BigPinePressurePlateRecipe",
@@ -354,7 +575,12 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_pressure_plate_recipe"
+      "registry_name": "big_pine_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/maxdogs_camping_mod/recipes/big_pine_pressure_plate_recipe.json"
+        ]
+      }
     },
     {
       "name": "BigPineButtonRecipe",
@@ -362,7 +588,12 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_button_recipe"
+      "registry_name": "big_pine_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/maxdogs_camping_mod/recipes/big_pine_button_recipe.json"
+        ]
+      }
     },
     {
       "name": "BigPineStickRecipe",
@@ -370,7 +601,12 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_pine_stick_recipe"
+      "registry_name": "big_pine_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/maxdogs_camping_mod/recipes/big_pine_stick_recipe.json"
+        ]
+      }
     },
     {
       "name": "DenseForest",
@@ -378,7 +614,14 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dense_forest"
+      "registry_name": "dense_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogscampingmod/world/features/treedecorators/DenseForestTrunkDecorator.java",
+          "src/main/java/net/mcreator/maxdogscampingmod/world/features/treedecorators/DenseForestLeaveDecorator.java",
+          "src/main/java/net/mcreator/maxdogscampingmod/world/biome/DenseForestBiome.java"
+        ]
+      }
     },
     {
       "name": "Marshmallow",
@@ -386,7 +629,13 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "marshmallow"
+      "registry_name": "marshmallow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/marshmallow.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/item/MarshmallowItem.java"
+        ]
+      }
     },
     {
       "name": "CookedMarshmallow",
@@ -394,7 +643,13 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cooked_marshmallow"
+      "registry_name": "cooked_marshmallow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_camping_mod/models/item/cooked_marshmallow.json",
+          "src/main/java/net/mcreator/maxdogscampingmod/item/CookedMarshmallowItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -446,5 +701,5 @@
     "modElementsPackage": "net.mcreator.maxdogscampingmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200344708
+  "mcreatorVersion": 202300224119
 }

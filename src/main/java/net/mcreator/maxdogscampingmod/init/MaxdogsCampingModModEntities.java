@@ -23,8 +23,7 @@ import net.mcreator.maxdogscampingmod.MaxdogsCampingModMod;
 public class MaxdogsCampingModModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, MaxdogsCampingModMod.MODID);
 	public static final RegistryObject<EntityType<TerrorStoriesEntity>> TERROR_STORIES = register("projectile_terror_stories",
-			EntityType.Builder.<TerrorStoriesEntity>of(TerrorStoriesEntity::new, MobCategory.MISC).setCustomClientFactory(TerrorStoriesEntity::new)
-					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+			EntityType.Builder.<TerrorStoriesEntity>of(TerrorStoriesEntity::new, MobCategory.MISC).setCustomClientFactory(TerrorStoriesEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
